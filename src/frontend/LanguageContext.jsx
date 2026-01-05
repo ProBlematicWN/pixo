@@ -1,8 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 
 const LanguageContext = createContext(null);
-
-// ✅ Словари (пока минимум — будем расширять постепенно)
 const DICT = {
   ru: {
     common: {
@@ -225,7 +223,6 @@ export function LanguageProvider({ children }) {
     localStorage.setItem("lang", lang);
   }, [lang]);
 
-  // ✅ t("common.upload") или t("pages.galleryTitle")
   const t = useMemo(() => {
     return (key) => {
       const parts = String(key).split(".");
@@ -250,3 +247,4 @@ export function useLang() {
   if (!ctx) throw new Error("useLang() must be used inside <LanguageProvider>");
   return ctx;
 }
+

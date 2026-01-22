@@ -9,3 +9,5 @@
 - [Схема архитектуры системы](docs/arch.pdf)
 - [Чек-листы тестирования](docs/check_lists.pdf)
 - [Тест-кейсы](docs/test_cases.pdf)
+- [Функциональное тестирование](docs/src/backend/tests)
+- [Генерация данных](src/backend/generator_run)

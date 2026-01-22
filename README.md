@@ -7,3 +7,4 @@
 - [Технологический стек](docs/technology-stack.md)
 - [Обоснование технологического стека](docs/technology-stack-justification.pdf)
 - [Схема архитектуры системы](docs/arch.pdf)
+- [Чек-листы тестирования](docs/check_lists.pdf)

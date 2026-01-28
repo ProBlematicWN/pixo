@@ -11,3 +11,4 @@
 - [Тест-кейсы](docs/test_cases.pdf)
 - [Функциональное тестирование](src/backend/tests)
 - [Генерация данных](src/backend/generator_run)
+- [Руководство пользователя](docs/user-manual.pdf)
